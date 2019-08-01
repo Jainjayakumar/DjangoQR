@@ -11,7 +11,7 @@ from base64 import b64encode, b64decode
 
 
 def homePageView(request):
-    return HttpResponse('Hello, World! Jain is Home')
+    return HttpResponse('Hello, World! This is Home Page')
 
 @csrf_exempt
 def methodinfo(request):
